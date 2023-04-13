@@ -1,13 +1,12 @@
 export default function Index() {
   return (
     <p id="zero-state">
-     Esto est una demo de como funciona React Router.
+     Proyecto desarrollado con React-Router V6.10
       <br />
-      Check out{" "}
       <a href="https://github.com/vickypineli">
-       Si quieres ver mas proyectos.....
+      Haz click aqui.
       </a>
-      .
+      {" "}Si quieres ver mas proyectos como este.
     </p>
   );
 }

@@ -83,7 +83,7 @@ export default function Root() {
                         {contact.first} {contact.last}
                       </>
                     ) : (
-                      <i>No Name</i>
+                      <i>No hay contactos guardados</i>
                     )}{" "}
                     {contact.favorite && <span>★</span>}
                     </NavLink>
@@ -92,7 +92,7 @@ export default function Root() {
             </ul>
           ) : (
             <p>
-              <i>No contacts</i>
+              <i>No hay contactos...</i>
             </p>
           )}
         </nav>
