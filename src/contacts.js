@@ -54,7 +54,7 @@ function set(contacts) {
   return localforage.setItem("contacts", contacts);
 }
 
-// fake a cache so we don't slow down stuff we've already seen
+// falsificar un caché para no ralentizar las cosas que ya hemos visto
 let fakeCache = {};
 
 async function fakeNetwork(key) {

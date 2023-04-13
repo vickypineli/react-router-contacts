@@ -19,9 +19,9 @@ const router = createBrowserRouter([
     children: [
       {
         errorElement: <ErrorPage />,
-        children: [
-              { index: true, element: <Index /> },
-
+          children: [
+              { index: true, element: <Index /> 
+              },
               {
                 path: "contacts/:contactId",
                 element: <Contact />,
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
                 action: destroyAction,
                 errorElement: <div>Oops! Ha habido un error.</div>,
               },
-         ]
+          ]
         }
       ]
   },

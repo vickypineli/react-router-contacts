@@ -63,7 +63,7 @@ export default function EditContact() {
         />
       </label>
       <p>
-        <button type="submit">Save</button>
+        <button type="submit">Guardar</button>
         <button type="button"onClick={() => {navigate(-1);}}>Cancel</button>
       </p>
     </Form>

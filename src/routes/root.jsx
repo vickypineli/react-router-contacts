@@ -33,14 +33,14 @@ export default function Root() {
   return (
     <>
       <div id="sidebar">
-        <h1>React Router Contacts</h1>
+        <h1>Kandula Web Desing</h1>
         <div>
           <Form id="search-form" role="search">
             <input
               id="q"
               className={searching ? "loading" : ""}
               aria-label="Search contacts"
-              placeholder="Search"
+              placeholder="Buscar...."
               type="search"
               name="q"
               defaultValue={q}
@@ -62,7 +62,7 @@ export default function Root() {
             ></div>
           </Form>
           <Form method="post">
-            <button type="submit">New</button>
+            <button type="submit">Nuevo</button>
           </Form>
         </div>
         <nav>
