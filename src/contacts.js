@@ -61,7 +61,6 @@ async function fakeNetwork(key) {
   if (!key) {
     fakeCache = {};
   }
-
   if (fakeCache[key]) {
     return;
   }
